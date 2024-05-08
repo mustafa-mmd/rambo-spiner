@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>rambo spiner</title>
+  <style>
+    .box{
+      height: 300px;
+      width: 300px;
+      border-radius:50%;
+      background:
+      conic-gradient(red,blue,yellow,green,brown,orange,violet);
+animation: box 1s 
+linear infinite;
+border: 3px solid;
+    }
+    @keyframes box{
+      100%{
+rotate: 360deg;
+      }
+    }
+    .button{
+      background-color:#d1899b;
+      color: black;
+      height: 80px;
+      width: 300px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .button:hover{
+-webkit-box-reflect: below 1px linear-gradient(transparent,black);
+ }
+  </style>
+</head>
+<body>
+  <h1>hello guys</h1>
+  <div>
+  <div class="box"></div>
+  <button class="button">click me</button>
+</div>
+</body>
+</html>
